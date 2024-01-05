@@ -1,0 +1,10 @@
+<input style="width: 80vw; padding: 5px; border-radius: 8px;" type="text" [(ngModel)]="searchQuery" placeholder="Search for a location">
+<button style="width: 15vw; padding: 5px; border-radius: 8px; margin-left: 8px;" (click)="searchLocation(searchQuery)">Search</button>
+<!-- <div class="">
+<div id="map"></div>
+</div> -->
+  <div class="map-container">
+    <div class="map-frame">
+        <div id="map"></div>
+    </div>
+  </div>
